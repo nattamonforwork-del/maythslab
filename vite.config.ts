@@ -5,7 +5,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/mayths-lab/',
+  base: '/',
   resolve: {
     alias: {
       xlsx: fileURLToPath(new URL('./node_modules/xlsx/xlsx.mjs', import.meta.url)),
